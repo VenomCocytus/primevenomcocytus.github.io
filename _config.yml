@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Allan ELONG's Blog
+title: Venom Cocytus
 email: nef_allan9704@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Allan NDJOG and I am a computer science student. This is my personal blog in which I describe my progress in the fields in which I am interested
+  Hi, my name is Allan NDJOG, welcome to my Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -29,7 +29,10 @@ github_username:  VenomCocytus
 
 # Build settings
 theme: minima
+# theme: minimal-mistakes-jekyll
+# remote_theme: pages-themes/cayman@v0.2.0
 plugins:
+  # - jekyll-remote-theme
   - jekyll-feed
 
 #changing Permalink
