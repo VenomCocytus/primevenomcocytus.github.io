@@ -4,7 +4,7 @@ title: "This is my first development post"
 date: 2022-09-08 04:20:00 +0100
 categories: development
 path: "development"
-tags: ["jekyll"]
+tags: ["development", "github"]
 ---
 
 # This is h1 Title

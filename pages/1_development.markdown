@@ -12,6 +12,13 @@ permalink: /development/
         <span class="post-meta">
             {{ post.date | date: date_format }}
         </span>
+        <span class="post-meta" style="padding-left: 20px;">
+          {%- for tag in post.tags -%}
+            <a href="/t/{{ tag | downcase | replace: ' ', '-' }}">
+              #{{ tag }}
+            </a>&nbsp;
+          {%- endfor -%}
+        </span>
         <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
