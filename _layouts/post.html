@@ -35,4 +35,13 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <div class="row">
+    <div class="col-12">
+      Tags:
+      {% for tag in page.tags %}
+        <a href="/t/{{ tag | downcase | replace: ' ', '-' }}" class="post">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
 </article>
